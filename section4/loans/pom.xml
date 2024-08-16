@@ -70,8 +70,11 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
 					<image>
-						<name>eazybytes/${project.artifactId}:s4</name>
+						<name>rkhaskin/${project.artifactId}:s4</name>
 					</image>
+                    <docker>
+			           <host>//./pipe/dockerDesktopLinuxEngine</host>
+		            </docker>					
 				</configuration>
 			</plugin>
 		</plugins>
